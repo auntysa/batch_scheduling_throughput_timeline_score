@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "auntysa-tts_jd217"
+name = "auntysa-batch_scheduling_throughput_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列语音合成工程师·批处理调度与吞吐折中的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://auntysa.github.io"
-Repository = "https://github.com/auntysa/tts_jd217"
-Issues = "https://github.com/auntysa/tts_jd217/issues"
+Repository = "https://github.com/auntysa/batch_scheduling_throughput_timeline_score"
+Issues = "https://github.com/auntysa/batch_scheduling_throughput_timeline_score/issues"
 
 [project.scripts]
-tts_jd217 = "tts_jd217:main"
+batch_scheduling_throughput_timeline_score = "batch_scheduling_throughput_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["tts_jd217"]
+py-modules = ["batch_scheduling_throughput_timeline_score"]
